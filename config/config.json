@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "sifredo",
+        "password": "administrador",
+        "database": "mysqlcli",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "sifredo",
+        "password": "administrador",
+        "database": "mysqlcli",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "sifredo",
+        "password": "administrador",
+        "database": "mysqlcli",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+}

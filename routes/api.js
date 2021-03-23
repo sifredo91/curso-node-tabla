@@ -1,11 +1,7 @@
 const router = require('express').Router();
-const middlewares = require('./middlewares');
 
+const { routerUser } = require(`./user/user`)
 
-const apiFilmsRouter = require('./api/films');
-const apiUsersRouter = require('./api/users');
-
-router.use('/films', middlewares.checkToken, apiFilmsRouter);
-router.use('/users', apiUsersRouter);
+router.use('/usuario', routerUser);
 
 module.exports = router;
